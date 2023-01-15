@@ -5,6 +5,8 @@ def check_list(input_list):
         result = print(f'The input list is NOT EMPTY and contains {input_list} elements.')
     return result
 
-check_list([2,1])
-
-check_list([])
+if __name__ == '__main__':
+    
+    print(f"Test 1:{check_list([2,1])}")
+    
+    print(f"Test 2:{check_list([])}")
